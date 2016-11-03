@@ -12,8 +12,9 @@ h2.four {
 
 .floatright { float: right; }
   
-.center { 
-    margin: auto;
-    width: 60%;
-    border: 20px solid #9999FF;
-    padding: 70px; }
+.right { 
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px; }
