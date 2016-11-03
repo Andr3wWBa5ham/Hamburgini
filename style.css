@@ -15,4 +15,5 @@ h2.four {
 .center { 
     margin: auto;
     width: 60%;
+    border: 20px solid FF1a1a;
     padding: 70px; }
