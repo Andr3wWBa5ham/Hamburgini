@@ -10,7 +10,12 @@ h2.four {
     width: 50;
 }
 
-.floatright { float: right; }
+.absolute { position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    }
   
 .right { 
     position: absolute;
