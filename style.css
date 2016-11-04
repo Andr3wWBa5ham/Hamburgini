@@ -11,8 +11,5 @@ h2.four {
 }
 
  
-.right { 
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    padding: 10px; }
+.floatleft{float:left;}
+.floatright{float:right;}
