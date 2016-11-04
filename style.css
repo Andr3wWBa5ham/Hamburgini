@@ -10,4 +10,15 @@ h2.four {
     width: 50;
 }
 
-
+.absolute { position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    }
+  
+.right { 
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px; }
