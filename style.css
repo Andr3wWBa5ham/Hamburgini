@@ -13,4 +13,4 @@ h2.four {
  
 .floatleft{float:left;}
 .floatright{float:right;}
-.center {text-align: center;}
+.center {text-align: center; width: 400; height: 100;}
