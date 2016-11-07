@@ -14,3 +14,11 @@ h2.four {
 .floatleft{float:left;}
 .floatright{float:right;}
 .center {text-align: center; width: 1600; height: 900;}
+
+.left {float: left;
+       Width: 500;
+       Height: 500;}
+
+.right {float: right;
+        Width: 500;
+    Height: 500;}
