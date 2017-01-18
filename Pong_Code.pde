@@ -16,7 +16,7 @@ void setup() {
 void draw() {
 drawBackground();
   //Paddle
-  rect(40, mouseX, 10, 50);
+  rect(40, mouseY, 10, 50);
   rect(560, p2y, 10, 48);
   shape(D,x, y, 10, 10);
   x = x + mx;
@@ -44,8 +44,8 @@ drawBackground();
     }
   }
 if (keyPressed) {
-    if (key == 'o') {
-      p2y = p2y + 10;
+    if (key == 'l') {
+      p2y = p2x + 10;
     }
   }
 }
