@@ -37,13 +37,6 @@ drawBackground();
       println("YAY!");
     }
   }
-   // check if we have hit the paddle!
-  if (x > 40 && x < 50) {
-    if (y > mouseY && y < (mouseY+30)) {
-      //BOUNCE!!
-      my = my * -2;
-    }
-  }
   
   if (keyPressed) {
     if (key == 'o') {
@@ -52,7 +45,7 @@ drawBackground();
   }
 if (keyPressed) {
     if (key == 'l') {
-      p2y = p2x + 10;
+      p2y = p2y + 10;
     }
   }
 }
